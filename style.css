@@ -42,5 +42,32 @@ nav{
     flex-direction: row-reverse;
 }
 
+@media (max-width: 768px) {
+    .car{
+        flex-direction: column;
+        text-align: center;
+        padding: 25px;
+
+    }
+
+    .reverse{
+        flex-direction: column;
+    }
+
+    .bmw-img img{
+        max-width: 100%;
+
+    }
+
+    .specs h2{
+        font-size: 24px;
+
+    }
+
+    .specs p {
+        font-size: 16px;
+    }
+}
+
 
 
